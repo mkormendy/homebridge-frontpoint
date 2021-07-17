@@ -1,6 +1,6 @@
 {
   "name": "homebridge-node-alarm-dot-com",
-  "version": "1.7.1",
+  "version": "1.7.2-beta.11",
   "betaVersion": "1.7.2",
   "description": "Alarm.com plugin for Homebridge using Node.js",
   "author": {
@@ -50,17 +50,18 @@
   },
   "dependencies": {
     "node-alarm-dot-com": "^1.11.0-beta.6",
+    "node-fetch": "^3.0.0-beta.9",
     "polling-to-event": "^2.1.0"
   },
   "devDependencies": {
-    "@types/node": "^15.12.4",
-    "@typescript-eslint/eslint-plugin": "^4.28.0",
-    "@typescript-eslint/parser": "^4.28.0",
-    "eslint": "^7.29.0",
+    "@types/node": "^15.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
     "homebridge": "^1.3.4",
-    "nodemon": "^2.0.7",
+    "nodemon": "^2.0.12",
     "rimraf": "^3.0.2",
     "ts-node": "^9.1.1",
-    "typescript": "^4.3.4"
+    "typescript": "^4.3.5"
   }
 }
